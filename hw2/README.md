@@ -10,7 +10,8 @@ Run `python3.6 tests.py` or `python3 tests.py` to run the test package (you'll n
 - t3 exists to check associativity and ordering with the basic arithmetic ops
 - t4 tests associativity and order with logic mixed in
 - t5 tests relops
-- t6 runs an if-else-while stress test
+- t6 is the same test but there's a nonassociative syntax error hidden in there.
+- t7 runs an if-else-while stress test.
 
 If you want to work here, the .gitignore is set to ignore your specific files to keep the branch clean.
 

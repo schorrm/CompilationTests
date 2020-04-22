@@ -36,7 +36,7 @@ def test_validate(testname: str, results1: str, results2: str):
         print(f'{testname}: fail')
 
 def log_and_exit(input, o1, o2):
-    for i, l1, l2 in enumerate(zip_longest(o1.splitlines(), o2.splitlines())):
+    for i, (l1, l2) in enumerate(zip_longest(o1.splitlines(), o2.splitlines())):
         if l1 != l2:
             print(f'Line #{i}')
             print('Got:')

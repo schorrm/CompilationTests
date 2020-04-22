@@ -40,7 +40,7 @@ def log_and_exit(input, o1, o2):
         if l1 != l2:
             print(f'Line #{i}')
             print('Got:')
-            print(l11)
+            print(l1)
             print('Expected:')
             print(l2)
             exit(0)

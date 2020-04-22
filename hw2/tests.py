@@ -68,7 +68,7 @@ outputs = {}
 inputs = {}
 
 
-for filename in glob.glob('tests/*.in'):
+for filename in sorted(glob.glob('tests/*.in')):
     filename = filename.split('.')[0]
     pretty = filename.split('/')[1]
     print(f'Running test - {pretty}')

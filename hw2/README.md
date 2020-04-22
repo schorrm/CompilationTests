@@ -2,7 +2,7 @@
 
 This folder has the tests for HW 2 (plus the other stuff they gave). I switched to a GitHub repo so updates will be easier, just run `git pull`, no need to move a zip around.
 
-Run `python3.6 tests.py` or `python3 tests.py` to run the test package.
+Run `python3.6 tests.py` or `python3 tests.py` to run the test package (you'll need to have the files here).
 
 ## Description
 

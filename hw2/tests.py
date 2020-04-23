@@ -107,7 +107,7 @@ for filename in sorted(glob.glob('tests/*.in')):
         output = subprocess.check_output(EXE, input=sample, encoding='utf-8', shell=True)
     except subprocess.CalledProcessError as e:
         if tst_err and e.returncode == 1:
-            print(f'Program exited with error code ({e.returncode}) -- this is correct!')
+            print(f'Program exited with error code ({e.returncode}) -- this is {fg.green}correct{fg.end}!')
         else:
             print(f'{fg.red}Program exited with error code ({e.returncode}){fg.end}')
         output = e.output

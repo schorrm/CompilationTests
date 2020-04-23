@@ -75,9 +75,12 @@ for filename in sorted(glob.glob('tests/*.in')):
 
     with open(f'{filename}.in') as f:
         sample = f.read()
-    
-    output = subprocess.check_output(EXE, input=sample, encoding='utf-8', shell=True)
 
+    try:
+        output = subprocess.check_output(EXE, input=sample, encoding='utf-8', shell=True)
+    except subprocess.CalledProcessError as e:
+        print(f'Caught error {e.returncode}')
+        output = e.output
     
     with open(f'{filename}.out') as f:
         output_check = f.read()

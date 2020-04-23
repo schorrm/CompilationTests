@@ -14,6 +14,26 @@ import glob
 from itertools import zip_longest
 import argparse
 
+
+class fg:
+    black = '\033[30m'
+    red = '\033[31m'
+    green = '\033[32m'
+    orange = '\033[33m'
+    blue = '\033[34m'
+    purple = '\033[35m'
+    cyan = '\033[36m'
+    lightgrey = '\033[37m'
+    darkgrey = '\033[90m'
+    lightred = '\033[91m'
+    lightgreen = '\033[92m'
+    yellow = '\033[93m'
+    lightblue = '\033[94m'
+    pink = '\033[95m'
+    lightcyan = '\033[96m'
+    end = '\033[00m'
+
+
 valid_output = b'''rm -f lex.yy.c
 rm -f parser.tab.*pp
 rm -f hw2
@@ -21,6 +41,7 @@ flex scanner.lex
 bison -d parser.ypp
 g++ -std=c++11 -o hw2 *.c *.cpp
 '''
+
 
 def chunk_lines(lst, n):
     text = ''
@@ -31,9 +52,10 @@ def chunk_lines(lst, n):
 
 def test_validate(testname: str, results1: str, results2: str):
     if (results1 == results2):
-        print(f'{testname}: pass')
+        print(f'{testname}: {fg.green}pass{fg.end}')
     else:
-        print(f'{testname}: fail')
+        print(f'{testname}: {fg.red}fail{fg.end}')
+
 
 def log_and_exit(input, o1, o2):
     for i, (l1, l2) in enumerate(zip_longest(o1.splitlines(), o2.splitlines())):
@@ -76,16 +98,21 @@ for filename in sorted(glob.glob('tests/*.in')):
     with open(f'{filename}.in') as f:
         sample = f.read()
 
-    try:
-        output = subprocess.check_output(EXE, input=sample, encoding='utf-8', shell=True)
-    except subprocess.CalledProcessError as e:
-        print(f'Caught error {e.returncode}')
-        output = e.output
-    
     with open(f'{filename}.out') as f:
         output_check = f.read()
 
-    test_validate("Basic check", output, output_check)
+    final_line = output_check.splitlines()[-1]
+    tst_err = 'error' in final_line
+    try:
+        output = subprocess.check_output(EXE, input=sample, encoding='utf-8', shell=True)
+    except subprocess.CalledProcessError as e:
+        if tst_err and e.returncode == 1:
+            print(f'Program exited with error code ({e.returncode}) -- this is correct!')
+        else:
+            print(f'{fg.red}Program exited with error code ({e.returncode}){fg.end}')
+        output = e.output
+
+    test_validate('Result', output, output_check)
     if output != output_check:
         if args.log:
             log_and_exit(sample, output, output_check)

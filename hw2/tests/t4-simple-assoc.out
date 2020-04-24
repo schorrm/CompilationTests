@@ -1,0 +1,6 @@
+31: Type -> INT
+5: RetType -> Type
+7: Formals -> epsilon
+36: Exp -> ID
+36: Exp -> ID
+line 2: syntax error

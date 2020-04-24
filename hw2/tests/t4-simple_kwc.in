@@ -1,0 +1,5 @@
+void func() {
+    if ( a == b ) {
+        print("b is a keyword...");
+    }
+}

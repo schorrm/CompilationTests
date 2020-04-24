@@ -1,0 +1,5 @@
+int bar() {
+    if (bar <= bar >= bar) {
+        print("Then you got your associativity wrong");
+    }
+}

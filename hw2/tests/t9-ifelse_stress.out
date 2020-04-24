@@ -1,0 +1,6445 @@
+31: Type -> INT
+5: RetType -> Type
+7: Formals -> epsilon
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+12: Statements -> Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+44: Exp -> Exp AND Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+35: Exp -> Exp BINOP Exp
+44: Exp -> Exp AND Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+45: Exp -> Exp OR Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+13: Statements -> Statements Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+43: Exp -> NOT Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+44: Exp -> Exp AND Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+45: Exp -> Exp OR Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+22: Statement -> IF LPAREN Exp RPAREN Statement ELSE Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+34: Exp -> LPAREN Exp RPAREN
+35: Exp -> Exp BINOP Exp
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+43: Exp -> NOT Exp
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+43: Exp -> NOT Exp
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+44: Exp -> Exp AND Exp
+16: Statement -> Type ID ASSIGN Exp SC
+12: Statements -> Statement
+31: Type -> INT
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+38: Exp -> NUM
+38: Exp -> NUM
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+34: Exp -> LPAREN Exp RPAREN
+46: Exp -> Exp RELOP Exp
+16: Statement -> Type ID ASSIGN Exp SC
+13: Statements -> Statements Statement
+14: Statement -> LBRACE Statements RBRACE
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+24: Statement -> WHILE LPAREN Exp RPAREN Statement ELSE Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+23: Statement -> WHILE LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+21: Statement -> IF LPAREN Exp RPAREN Statement
+13: Statements -> Statements Statement
+4: FuncDecl -> RetType ID LPAREN Formals RPAREN LBRACE Statements RBRACE
+2: Funcs -> epsilon
+3: Funcs -> FuncDecl Funcs
+1: Program -> Funcs

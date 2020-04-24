@@ -6,3 +6,4 @@ parser.ypp
 scanner.lex
 selfcheck-hw2
 test_gen.py
+renumber.py

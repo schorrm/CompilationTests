@@ -1,0 +1,4 @@
+int main () {
+    int foo = &x; //there aren't any pointers here?"
+    return 0;
+}

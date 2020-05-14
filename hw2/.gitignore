@@ -7,3 +7,4 @@ scanner.lex
 test_gen.py
 renumber.py
 workspace/
+*-*.zip

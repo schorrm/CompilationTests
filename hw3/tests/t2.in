@@ -1,0 +1,13 @@
+int return6() {
+    return 6;
+}
+
+void main() {
+    bool c = true;
+    if (not c) {
+        int x = 6;
+        printi(x);
+    }
+    else
+        syntax error;
+}

@@ -71,8 +71,13 @@ def log_and_exit(input, o1, o2):
 parser = argparse.ArgumentParser(description='Run the test suite.')
 
 parser.add_argument('-l', '--log', action='store_true', help="Print the first differing file-line and exit")
+parser.add_argument('-v', '--version', action='store_true', help="Print the version and exit")
+
 args = parser.parse_args()
 
+if args.version:
+    print('HW3 Tests version 0.0.1')
+    exit(0)
 
 random.seed(12345)
 

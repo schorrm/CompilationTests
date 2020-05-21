@@ -1,0 +1,7 @@
+// Pointed out to me by Matan
+// Make sure that you evaluate the assignment before initializing the variable
+void main () {
+    int x = x; // this is not a valid assignment.
+    // Should say: "line 4: variable x is not defined"
+    return x;
+}

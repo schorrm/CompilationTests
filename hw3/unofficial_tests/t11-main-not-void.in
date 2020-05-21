@@ -1,0 +1,13 @@
+// This has no void main
+// It has an int main, just to be annoying
+int foo () {
+    return 12;
+}
+
+int bar () {
+    return 17;
+}
+
+int main () {
+    return 200;
+}

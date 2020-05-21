@@ -1,0 +1,8 @@
+---end scope---
+x INT 0
+---end scope---
+y BYTE 0
+z BYTE 1
+---end scope---
+x BYTE 0
+line 19: syntax error

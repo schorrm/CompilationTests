@@ -1,0 +1,12 @@
+// Testing whether you can handle print
+
+void foo() {
+    int x = 12;
+    printi(12); // okay
+    print("foo"); // okay
+}
+
+void main() {
+    foo();
+    print(12); // not okay
+}

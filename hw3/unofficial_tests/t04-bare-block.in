@@ -1,0 +1,10 @@
+void main () {
+    int x = 1;
+    int y = 2;
+    byte z = 3 b;
+    {
+        int f = x + y;
+        int h = x + y;
+    }
+    return;
+}

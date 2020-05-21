@@ -1,0 +1,19 @@
+// Let's test the bytes
+// the first function should pass
+
+int foo () {
+    int x = 200 b; // auto conversion
+    return x;
+}
+
+int bar () {
+    byte y = 200 b;
+    byte z = y + y; // this is kinda illegal in theory but we don't need to do static analysis
+    return z; // also auto conversion
+}
+
+int baz () {
+    byte x = 300 b; // this is illegal
+}
+
+void main () {}

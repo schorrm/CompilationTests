@@ -1,0 +1,7 @@
+---end scope---
+x INT -2
+y INT -1
+---end scope---
+x BYTE -2
+y INT -1
+line 12: identifier y is already defined

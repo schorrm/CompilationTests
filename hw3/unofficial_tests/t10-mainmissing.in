@@ -1,0 +1,12 @@
+// This has no void main
+int foo () {
+    return 12;
+}
+
+int bar () {
+    return 17;
+}
+
+int baz () {
+    return 200;
+}

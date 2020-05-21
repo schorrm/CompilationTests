@@ -1,0 +1,5 @@
+// Make sure that you check the typing on initial though
+void main () {
+    int x = true; // line 3 type mismatch
+    return 0;
+}

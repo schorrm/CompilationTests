@@ -1,0 +1,5 @@
+// This has a void main, but since it has params it doesn't count
+// This is a valid function, but then the program should end with a main missing error.
+void main (int x, int y) {
+    return;
+}

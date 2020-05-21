@@ -16,4 +16,6 @@ int baz () {
     byte x = 300 b; // this is illegal
 }
 
-void main () {}
+void main () {
+    int x = 1;
+}

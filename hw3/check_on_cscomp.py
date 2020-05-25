@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-from jumpssh import SSHSession # we need this for establishing the SSH
+from jumpssh import SSHSession  # we need this for establishing the SSH
 import getpass
 import glob
 
-username = input("Username: ")
-password = getpass.getpass()
-
 csl3 = 'csl3.cs.technion.ac.il'
 cscomp = 'cscomp.cs.technion.ac.il'
+CDDIR = 'cd CompilationTests/hw3; '
 
-CDDIR = 'cd CompilationTests/hw3; ' 
+username = input("Username: ")
+password = getpass.getpass()
 
 print('Establishing client through csl3 bridge')
 gateway_session = SSHSession(csl3, username, password=password)
@@ -33,11 +32,6 @@ sub_zip = zips[0]
 print(f'File: {sub_zip}')
 remote_session.put(sub_zip, f'/home/{username}/CompilationTests/hw3/{sub_zip}')
 print('Copied file to remote')
-
-print('Current dir:', remote_session.get_cmd_output('pwd'))
-print('Going to hw3 dir')
-print(remote_session.get_cmd_output(f'{CDDIR} pwd'))
-# print('Current dir:', remote_session.get_cmd_output('pwd'))
 print('Updating tests (git pull):')
 print(remote_session.get_cmd_output(f'{CDDIR} git pull'))
 print('running the official self-check:')

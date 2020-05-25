@@ -22,8 +22,8 @@ if testdir_exists:
     print('Test dir found')
 else:
     print('Test dir not found')
-    exit(0)
-
+    print('Cloning tests: ')
+    print(remote_session.get_cmd_output('git clone https://github.com/schorrm/CompilationTests.git'))
 
 zips = glob.glob('[0-9]*-[0-9]*.zip')
 if not zips:

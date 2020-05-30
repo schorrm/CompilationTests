@@ -9,7 +9,6 @@ int bar(byte x, int y) {
 void main () {
     int x = foo(1, 2);
     int y = bar(1 b, 2); // still okay
-    int y = foo(1 b, 2); // also okay
-    int z = bar(1, 2); // not okay!
+    int y = foo(1 b, 2); // not okay! redeclaration!
     return;
 }

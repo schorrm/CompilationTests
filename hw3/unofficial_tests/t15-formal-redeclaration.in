@@ -1,0 +1,9 @@
+// redeclaring in a formal
+int foo(int x, int x) {
+    return 2;
+}
+
+void main () {
+    int y;
+    return;
+}

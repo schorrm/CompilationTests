@@ -76,7 +76,7 @@ parser.add_argument('-v', '--version', action='store_true', help="Print the vers
 args = parser.parse_args()
 
 if args.version:
-    print('HW3 Tests version 0.1.1')
+    print('HW3 Tests version 0.1.2')
     exit(0)
 
 random.seed(12345)

@@ -1,0 +1,9 @@
+// Should fail on reusing a formal
+int foo(int x) {
+    int x; // wrong!
+}
+
+void main() {
+    int y = 8;
+    return;
+}

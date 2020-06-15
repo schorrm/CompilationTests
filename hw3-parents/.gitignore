@@ -1,0 +1,15 @@
+hw3
+*.cpp
+*.hpp
+*.ypp
+!hw3_output.cpp
+!hw3_output.hpp
+lex.yy.c
+parser.tab.cpp
+parser.tab.hpp
+parser.ypp
+scanner.lex
+test_gen.py
+renumber.py
+workspace/
+*-*.zip

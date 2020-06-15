@@ -1,0 +1,4 @@
+---end scope---
+f INT 2
+h INT 3
+line 10: variable h is not defined

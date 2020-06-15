@@ -1,0 +1,12 @@
+// Testing your return and scopes
+
+int foo() {
+    if (1<2) {
+        // remember you can return from a sub-scope!
+        return 5;
+    }
+}
+
+void main() {
+    foo();
+}

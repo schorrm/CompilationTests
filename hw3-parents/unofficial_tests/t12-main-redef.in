@@ -1,0 +1,19 @@
+// It has an int main, just to be annoying
+// This has a void main, but that's a redefinition
+int foo () {
+    return 12;
+}
+
+int bar () {
+    return 17;
+}
+
+int main () {
+    return 200;
+}
+
+void main () {
+    // You shouldn't get here at all
+    int x = "foo"; // this type error shouldn't throw because the redefinition is first
+    return;
+}

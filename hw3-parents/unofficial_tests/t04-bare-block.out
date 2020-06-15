@@ -1,0 +1,9 @@
+---end scope---
+f INT 2
+h INT 3
+---end scope---
+x INT 0
+y INT 1
+---end scope---
+printi (INT)->VOID 0
+main ()->VOID 0

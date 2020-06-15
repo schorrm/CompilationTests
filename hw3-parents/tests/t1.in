@@ -1,0 +1,11 @@
+void printOk(bool isOk) {
+    if (isOk) printi(1);
+}
+
+void main()
+{
+    int x = 4;
+    int y = 100 ;
+    printOk(x>y);
+    int z;
+}

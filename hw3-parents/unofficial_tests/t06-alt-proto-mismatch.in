@@ -1,0 +1,14 @@
+int foo(int x, int y) {
+    return x + y;
+}
+
+int bar(bool x, int y) {
+    return y;
+}
+
+void main () {
+    int x = foo(1, 2);
+    int y = bar(true, 2); // still okay
+    int z = bar(1, 2); // not okay!
+    return;
+}
